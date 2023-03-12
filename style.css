@@ -1,0 +1,45 @@
+html {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+body {
+    background: #C9EEFF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.keys {
+    display: flex;
+    flex-wrap: no-wrap;
+    margin: 0 auto;
+}
+
+.key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    min-width: 100px;
+    height: 100px;
+    background-color: #ECF2FF;
+    border: 2px solid #383235;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.key:active {
+    background-color: #EA8FEA;
+}
+
+.key-text {
+    font-weight: 800;
+    color: #3A98B9;
+}
